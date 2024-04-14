@@ -34,8 +34,8 @@ Go to frontend dir after all this installation and run npm start
 ```shell
  cd devops-fullstack-app/frontend/
  sudo vim .env #REACT_APP_SERVER_URL=http://localhost:8080/employees --> REACT_APP_SERVER_URL=http://backend_pub_ip:8080/employees
- npm install
- npm start
+ npm install #This command is used to install dependencies listed in the package.json file of a Node.js project.
+ npm start   #This command is typically used to start the application defined in the scripts section of the package.json file
 ```
 
 # Login into Backend Instance:
