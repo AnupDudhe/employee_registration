@@ -21,10 +21,11 @@ sudo apt update
 Installing Node.js to run React.js:
 ```shell
  sudo apt install -y nodejs npm
- sudo npm install -g n
- sudo n 14.17.0
+ sudo npm install -g n  #using nodepackagemanager you have installed a Node.js version manager that allows you to install and manage multiple versions of Node.js on your system.
+ sudo n 14.17.0   #This command uses the n package installed in the previous step to install a specific version of Node.js (in this case, version 14.17.0).
  node -v
 ```
+n is a Node.js version manager. It allows you to easily install, manage, and switch between multiple versions of Node.js on your system. With n, you can install different versions of Node.js side by side and quickly switch between them as needed for your projects or development environments.
 Clone git repo:
 ```shell
  git clone https://github.com/shubhamkalsait/devops-fullstack-app.git
